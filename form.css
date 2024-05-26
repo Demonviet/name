@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+form {
+    width: 300px;
+    height: 100%;
+    background: aquamarine;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form>input {
+    width: 100%;
+}
+
+.btn-submit {
+    width: 90%;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
